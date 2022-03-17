@@ -1,5 +1,51 @@
-#Process Portfolio 
+CODING PROCESS PORTFOLIO
 
 Stage I : Learning Game Development
+  Before this project, I have no experience in game development. However, I have a lot of experience in Python coding (I am an USACO bronze campion).
+  In order to make a video game, I need to learn how to do game develop in an engine
+  I need to start coding the game in a week, so I decide to use Godot Engine because it is new user friendly and supports GDscript, a language similar to Python3.
+  Using Youtube videos, I squeezed several months of game development lessons into a week.
+  In the end, I sucessfully learned how to use Godot Engine to create a 2D game with collision, a player, and enemys.
+  
+Stage II: Starting the Game
+  After talking to my peers, I understand the direction we are going in this game and started to code
+  Using the sprites drawn up by the art team, I created a simple game with a main character, blocks, and a background
+  There was some collision issues, but I eventually solved it
+  The player can jump and move with obeying the laws of physics, such as gravity at 9.8m/s**2 and acceleration of the movements
+  Blocks and Backgrounds allowed the game to have a cool asethtics 
+  I personally love this game already and can't wait to add in the npcs and enemys to make this game more life-like
+  
+Stage III: Game Features
+  I started off with adding NPCs into the background
+  Most of them cannot move, but you can engage with dialogue with them
+  #Dialogues will be posted in the resource section
+  The sprites from the art team are arriving late, so it effected the rate of progress of the game development. At the moment, I cannot add attack movements and enemys within the game
+  
+  
+  
+  
+  
+RESOURCES
 
-Before this project, I have no experience in game development. However, I have a lot of experience in Python coding (I am an USACO bronze campion).
+#meeting the mentor
+[
+    {"name":"White-Beard Person",            "message":"That was an impressive jump you made back there."},
+    {"name":"White-Beard Person",            "message":"I see great potiential in your future."},
+    {"name":"Master Wong",                   "message":"I am Master Wong, leader of the Shadow Fighters, savior of Changsha."},
+    {"name":"7-11",                          "message":"My name is 7-11."},
+    {"name":"7-11",                          "message":"I have come to join the Shadow Fighters."},
+    {"name":"Master Wong",                   "message":"For what purpose?"},
+    {"name":"7-11",                          "message":"The Baron... he burned down my lab and took my daughter away from me."},
+    {"name":"Scene",                         "message":"enter flashback*"},
+    {"name":"7-11",                          "message":"I wandered the streets for weeks,"},
+    {"name":"7-11",                          "message":"All I could think about was my daughter."},
+    {"name":"7-11",                          "message":"I spent months searching for the Shadow Fighters, for a chance to save my daughter"},
+    {"name":"Master Wong",                   "message":"I see..."},
+    {"name":"Master Wong",                   "message":"Several of the Baron's soiders invaded our facility,"},
+    {"name":"Master Wong",                   "message":"Take this sword and prove ourself worthy."},
+    {"name":"7-11",                          "message":"But I've never used a sword before."},
+    {"name":"Master Wong",                   "message":"Only a natural warrior can stand a chance against the Baron,"},
+    {"name":"Master Wong",                   "message":"I'll be waiting for you."}
+]
+
+
