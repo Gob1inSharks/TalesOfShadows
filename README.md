@@ -1,7 +1,7 @@
 # TalesOfShadows
 https://jayden-chen-games.itch.io/tales-of-shadows
 
-All stories are based on peasant revolutions in Hunan province durring the 1926s
+All stories are based on peasant revolutions in Hunan province during 1926
 Follow the story of 7-11 to
   Interact with NPCs
   Defeat the Baron and his soldiers
