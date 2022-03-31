@@ -1,5 +1,5 @@
 # TalesOfShadows
-Indie Video Game
+https://jayden-chen-games.itch.io/tales-of-shadows
 
 All stories are based on peasant revolutions in Hunan province durring the 1926s
 Follow the story of 7-11 to
@@ -18,3 +18,5 @@ Team Members
   Ronan Linzel
   Roxane Vossoughi
   
+Check out my process portfolio
+UwU have a good day 
