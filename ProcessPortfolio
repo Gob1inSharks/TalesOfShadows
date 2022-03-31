@@ -20,9 +20,16 @@ Stage III: Game Features
   Most of them cannot move, but you can engage with dialogue with them
   #Dialogues will be posted in the resource section
   The sprites from the art team are arriving late, so it effected the rate of progress of the game development. At the moment, I cannot add attack movements and enemys within the game
+  I added the enemies, attack, and coins in the game
+  Ok so its 2 days before the due date. And I only have one level out of six made. :(
+  Its 4 am, 3/31. I finally finished the game in time. Sleep. 
+  Shit i missed the first block. Overslept.
   
-  
-  
+ Stage IV: Ending
+  In the end, I finished the game.
+  It was supposed to be an open-world/ story game, but it ended up being a story game.
+  Its pretty good. Here's the link:
+  https://jayden-chen-games.itch.io/tales-of-shadows
   
   
 RESOURCES
@@ -48,6 +55,31 @@ JaydenChen314159265358979323846264338327950288419716939
     {"name":"7-11",                          "message":"But I've never used a sword before."},
     {"name":"Master Wong",                   "message":"Only a natural warrior can stand a chance against the Baron,"},
     {"name":"Master Wong",                   "message":"I'll be waiting for you."}
+]
+[
+    {"name":"7-11",         "message":"This ends here. I challenge you!"},
+    {"name":"The Baron",    "message":"You cannot defeat me,"},
+    {"name":"The Baron",    "message":"For I have unlimited power!"}
+]
+[
+    {"name":"Sir Ejimo",       "message":"Greetings fellow human."},
+    {"name":"Sir Ejimo",       "message":"I, Sir Ejimo shall tell you a story of great tragity."},
+    {"name":"7-11",            "message":"Thanks but I have to..."},
+    {"name":"Sir Ejimo",       "message":"It was a rainy day, full of mud, fog, and darkness."},
+    {"name":"Sir Ejimo",       "message":"The Baron, in his black armor hath taken her soul,"},
+    {"name":"Sir Ejimo",       "message":"She was my muse, my heart."},
+    {"name":"7-11",            "message":"Okay..."},
+    {"name":"Sir Ejimo",       "message":"Sir Mak promised to legalize anti-automation activities,"},
+    {"name":"Sir Ejimo",       "message":"Sir Mak promised me revenge,"},
+    {"name":"Sir Ejimo",       "message":"Soon, I shall finish my vendetta."},
+    {"name":"Sir Ejimo",       "message":"Oh Helena,"},
+    {"name":"Sir Ejimo",       "message":"When will both our cards collide?"},
+    {"name":"7-11",            "message":"Okay... I'll see you later..."},
+    {"name":"Sir Ejimo",       "message":"When I was a young boy,"},
+    {"name":"Sir Ejimo",       "message":"My father took me into the city,"},
+    {"name":"Sir Ejimo",       "message":"To see a marching band."},
+    {"name":"Sir Ejimo",       "message":"He said, son when you grow up, will you..."},
+    {"name":"7-11",            "message":"I... Gotta go."}
 ]
 
 
