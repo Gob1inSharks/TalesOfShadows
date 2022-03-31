@@ -11,11 +11,11 @@ Follow the story of 7-11 to
   
 Currently in development
 Team Members
-  Angie Che (Art design)
-  Colin Tabot (Sound effects)
-  Claire Barnard
-  Jayden Chen (Coding and Gameplay)
-  Ronan Linzel
+  Angie Che (Art design),
+  Colin Tabot (Sound effects),
+  Claire Barnard,
+  Jayden Chen (Coding and Gameplay),
+  Ronan Linzel,
   Roxane Vossoughi
   
 Check out my process portfolio
