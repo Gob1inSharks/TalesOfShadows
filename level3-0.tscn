@@ -1,0 +1,211 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://src/boxes/box0.tres" type="TileSet" id=1]
+[ext_resource path="res://src/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/background/Untitled_Artwork 3 (1).jpg" type="Texture" id=3]
+[ext_resource path="res://src/actors/daughter.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/actors/theBaron-.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/checkpoint.tscn" type="PackedScene" id=6]
+[ext_resource path="res://interface/dialogue/DialoguePlayer.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/audio/Robot walking.mp3" type="AudioStream" id=8]
+[ext_resource path="res://assets/conflict.wav" type="AudioStream" id=9]
+
+[node name="finale" type="Node2D"]
+
+[node name="MicrosoftTeams-image(3)" type="TextureRect" parent="."]
+margin_left = 28.0
+margin_top = -527.0
+margin_right = 2416.0
+margin_bottom = 1141.0
+rect_scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)13" type="TextureRect" parent="."]
+margin_left = 28.0
+margin_top = -527.0
+margin_right = 2416.0
+margin_bottom = 1141.0
+rect_scale = Vector2( 0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)3" type="TextureRect" parent="."]
+margin_left = 28.0
+margin_top = -527.0
+margin_right = 2416.0
+margin_bottom = 1141.0
+rect_scale = Vector2( -0.6, 0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)14" type="TextureRect" parent="."]
+margin_left = 28.0
+margin_top = -527.0
+margin_right = 2416.0
+margin_bottom = 1141.0
+rect_scale = Vector2( -0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)11" type="TextureRect" parent="."]
+margin_left = 28.0
+margin_top = 1474.0
+margin_right = 2416.0
+margin_bottom = 3142.0
+rect_scale = Vector2( -0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)12" type="TextureRect" parent="."]
+margin_left = 28.0
+margin_top = 1474.0
+margin_right = 2416.0
+margin_bottom = 3142.0
+rect_scale = Vector2( 0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)4" type="TextureRect" parent="."]
+margin_left = 2892.0
+margin_top = -527.0
+margin_right = 5280.0
+margin_bottom = 1141.0
+rect_scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)15" type="TextureRect" parent="."]
+margin_left = 2892.0
+margin_top = -527.0
+margin_right = 5280.0
+margin_bottom = 1141.0
+rect_scale = Vector2( 0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)5" type="TextureRect" parent="."]
+margin_left = 5757.0
+margin_top = -527.0
+margin_right = 8145.0
+margin_bottom = 1141.0
+rect_scale = Vector2( -0.6, 0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)18" type="TextureRect" parent="."]
+margin_left = 5757.0
+margin_top = -527.0
+margin_right = 8145.0
+margin_bottom = 1141.0
+rect_scale = Vector2( -0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)6" type="TextureRect" parent="."]
+margin_left = 5759.0
+margin_top = -527.0
+margin_right = 8147.0
+margin_bottom = 1141.0
+rect_scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)16" type="TextureRect" parent="."]
+margin_left = 5759.0
+margin_top = -527.0
+margin_right = 8147.0
+margin_bottom = 1141.0
+rect_scale = Vector2( 0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)7" type="TextureRect" parent="."]
+margin_left = 5759.0
+margin_top = 1475.0
+margin_right = 8147.0
+margin_bottom = 3143.0
+rect_scale = Vector2( 0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)8" type="TextureRect" parent="."]
+margin_left = 5758.0
+margin_top = 1475.0
+margin_right = 8146.0
+margin_bottom = 3143.0
+rect_scale = Vector2( -0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)9" type="TextureRect" parent="."]
+margin_left = 2893.0
+margin_top = 1475.0
+margin_right = 5281.0
+margin_bottom = 3143.0
+rect_scale = Vector2( 0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)10" type="TextureRect" parent="."]
+margin_left = 2893.0
+margin_top = 1475.0
+margin_right = 5281.0
+margin_bottom = 3143.0
+rect_scale = Vector2( -0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)2" type="TextureRect" parent="."]
+margin_left = 2892.0
+margin_top = -527.0
+margin_right = 5280.0
+margin_bottom = 1141.0
+rect_scale = Vector2( -0.6, 0.6 )
+texture = ExtResource( 3 )
+
+[node name="MicrosoftTeams-image(3)17" type="TextureRect" parent="."]
+margin_left = 2892.0
+margin_top = -527.0
+margin_right = 5280.0
+margin_bottom = 1141.0
+rect_scale = Vector2( -0.6, -0.6 )
+texture = ExtResource( 3 )
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 151, 435 )
+collision_mask = 65471
+script_file = "res://interface/dialogue/player_script2.json"
+
+[node name="DialoguePlayer" parent="player" instance=ExtResource( 7 )]
+dialogue_file = "res://interface/dialogue/dialogue_baron.json"
+
+[node name="point_body" parent="." instance=ExtResource( 6 )]
+position = Vector2( 606, 424 )
+rotation = 8.74228e-08
+scale = Vector2( 0.7, 0.7 )
+
+[node name="boss" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1660, -7 )
+rotation = 3.14159
+scale = Vector2( -0.7, -0.7 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="boss"]
+stream = ExtResource( 8 )
+volume_db = -20.0
+autoplay = true
+max_distance = 8000.0
+attenuation = 1.27456
+
+[node name="90E" parent="." instance=ExtResource( 4 )]
+position = Vector2( 5278, 432 )
+scale = Vector2( 1.3, 1.3 )
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="90E"]
+stream = ExtResource( 9 )
+volume_db = -17.479
+autoplay = true
+max_distance = 15000.0
+attenuation = 0.34151
+
+[node name="DialoguePlayer" parent="90E" instance=ExtResource( 7 )]
+dialogue_file = "res://interface/dialogue/dialogue_daughter.json"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+modulate = Color( 1, 1, 1, 0.647059 )
+margin_left = 882.0
+margin_top = 471.0
+margin_right = 1854.0
+margin_bottom = 643.0
+color = Color( 0.738281, 0.109589, 0.109589, 1 )
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 0.05, 0.05 )
+tile_set = ExtResource( 1 )
+collision_layer = 16
+format = 1
+tile_data = PoolIntArray( -7732669, 5, 0, -7732631, 5, 0, -7732593, 5, 0, -7602281, 5, 0, -7602243, 5, 0, -7602206, 5, 0, -5242301, 5, 0, -5242263, 5, 0, -5242225, 5, 0, -5111913, 5, 0, -5111875, 5, 0, -5111838, 5, 0, -2687081, 5, 0, -2687043, 5, 0, -2687006, 5, 0, -2751933, 5, 0, -2751895, 5, 0, -2751857, 5, 0, -196713, 5, 0, -196675, 5, 0, -196638, 5, 0, -261565, 5, 0, -261527, 5, 0, -261489, 5, 0, 2293655, 5, 0, 2293693, 5, 0, 2293730, 5, 0, 2228803, 5, 0, 2228841, 5, 0, 2228879, 5, 0, 4784023, 5, 0, 4784061, 5, 0, 4784098, 5, 0, 7274391, 5, 0, 7274429, 5, 0, 7274466, 5, 0, 9764759, 5, 0, 9764797, 5, 0, 9764835, 5, 0, 9699337, 5, 0, 9699375, 5, 0, 9699413, 5, 0, 9699451, 5, 0, 9699489, 5, 0, 9699527, 5, 0, 9699565, 5, 0, 9699907, 5, 0, 9699945, 5, 0, 9699983, 5, 0, 9700021, 5, 0, 9700059, 5, 0, 9700097, 5, 0, 9700135, 5, 0, 9700173, 5, 0, 9700211, 5, 0, 9700249, 5, 0, 9700287, 5, 0, 9700325, 5, 0, 9700363, 5, 0, 9700400, 5, 0, 9700438, 536870917, 0, 9700439, 536870917, 0, 9700477, 5, 0, 9700515, 5, 0, 9700553, 5, 0, 9700591, 5, 0, 9700629, 5, 0, 9700667, 5, 0, 9700705, 5, 0, 9700743, 5, 0, 9700781, 5, 0, 9700819, 5, 0, 9700857, 5, 0, 9700895, 5, 0, 9700932, 5, 0, 9700970, 5, 0, 9701008, 5, 0, 9701046, 5, 0, 9701084, 5, 0, 10289427, 5, 0, 10289465, 5, 0, 10289503, 5, 0, 10289541, 5, 0, 10289579, 5, 0, 10289617, 5, 0, 10289655, 5, 0, 10289693, 5, 0, 12255127, 5, 0, 12255165, 5, 0, 12255203, 5, 0, 12189705, 5, 0, 12189743, 5, 0, 12189781, 5, 0, 12189819, 5, 0, 12189857, 5, 0, 12189895, 5, 0, 12189933, 5, 0, 12189971, 5, 0, 12190009, 5, 0, 12190047, 5, 0, 12190085, 5, 0, 12190123, 5, 0, 12190161, 5, 0, 12190199, 5, 0, 12190237, 5, 0, 12190275, 5, 0, 12190313, 5, 0, 12190351, 5, 0, 12190389, 5, 0, 12190427, 5, 0, 12190465, 5, 0, 12190503, 5, 0, 12191187, 5, 0, 12191225, 5, 0, 12191263, 5, 0, 12191264, 5, 0, 12191300, 5, 0, 12191338, 5, 0, 12191376, 5, 0, 12191414, 5, 0, 12191452, 5, 0, 14745495, 5, 0, 14745533, 5, 0, 14745571, 5, 0, 14680073, 5, 0, 14680111, 5, 0, 14680149, 5, 0, 14680187, 5, 0, 14680225, 5, 0, 14680263, 5, 0, 14680301, 5, 0, 14680339, 5, 0, 14680377, 5, 0, 14680415, 5, 0, 14680453, 5, 0, 14680491, 5, 0, 14680529, 5, 0, 14680567, 5, 0, 14680605, 5, 0, 14680643, 5, 0, 14680681, 5, 0, 14680719, 5, 0, 14680757, 5, 0, 14681593, 5, 0, 14681631, 5, 0, 14681668, 5, 0, 14681706, 5, 0, 14681744, 5, 0, 14681782, 5, 0, 14681820, 5, 0, 17235863, 5, 0, 17235901, 5, 0, 17235939, 5, 0, 17170441, 5, 0, 17170479, 5, 0, 17170517, 5, 0, 17170555, 5, 0, 17170593, 5, 0, 17170631, 5, 0, 17170669, 5, 0, 17170707, 5, 0, 17170745, 5, 0, 17170783, 5, 0, 17170821, 5, 0, 17170859, 5, 0, 17170897, 5, 0, 17170935, 5, 0, 17170973, 5, 0, 17171011, 5, 0, 17171049, 5, 0, 17171087, 5, 0, 17171961, 5, 0, 17171999, 5, 0, 17172037, 5, 0, 17172075, 5, 0, 17172113, 5, 0, 17172151, 5, 0, 17172188, 5, 0, 19662405, 5, 0, 19662443, 5, 0, 19662481, 5, 0, 19662519, 5, 0, 22087275, 5, 0, 22087313, 5, 0, 22087351, 5, 0, 24577643, 5, 0, 24577681, 5, 0 )

@@ -1,0 +1,79 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://src/boxes/box0.tres" type="TileSet" id=1]
+[ext_resource path="res://src/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/actors/enemy0-.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/actors/Wong.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/actors/Sir Orlo.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/filler/f5192ac6fc54e78e02aa1c9469407a8.jpg" type="Texture" id=6]
+[ext_resource path="res://src/boxes/box1.tres" type="TileSet" id=7]
+[ext_resource path="res://src/checkpoint.tscn" type="PackedScene" id=8]
+
+[node name="TestMap" type="Node2D"]
+
+[node name="F5192Ac6Fc54E78E02Aa1C9469407A8" type="TextureRect" parent="."]
+margin_left = 1968.0
+margin_top = 169.0
+margin_right = 3048.0
+margin_bottom = 1715.0
+rect_scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 6 )
+
+[node name="F5192Ac6Fc54E78E02Aa1C9469407A10" type="TextureRect" parent="."]
+margin_left = 2400.0
+margin_top = 169.0
+margin_right = 3480.0
+margin_bottom = 1715.0
+rect_scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 6 )
+
+[node name="F5192Ac6Fc54E78E02Aa1C9469407A9" type="TextureRect" parent="."]
+margin_left = 2184.0
+margin_top = 169.0
+margin_right = 3264.0
+margin_bottom = 1715.0
+rect_scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 6 )
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 0.05, 0.05 )
+tile_set = ExtResource( 1 )
+collision_layer = 16
+format = 1
+tile_data = PoolIntArray( -851797, 0, 0, -851759, 0, 0, -851721, 0, 0, 4063111, 0, 0, 7339993, 0, 0, 7274747, 0, 0, 7275072, 0, 0, 7275338, 0, 0, 7340227, 0, 0, 7340555, 0, 0, 9765478, 0, 0, 9765516, 0, 0, 9765554, 0, 0, 9765592, 0, 0, 9765630, 0, 0, 9765668, 0, 0, 9895897, 0, 0, 9830400, 0, 0, 9830439, 0, 0, 9830478, 0, 0, 9830517, 0, 0, 9830556, 0, 0, 9830595, 0, 0, 9830651, 0, 0, 9830690, 0, 0, 9830729, 0, 0, 9830768, 0, 0, 9830807, 0, 0, 9830846, 0, 0, 9830885, 0, 0, 9830923, 0, 0 )
+
+[node name="TileMap2" type="TileMap" parent="."]
+scale = Vector2( 0.2, 0.2 )
+tile_set = ExtResource( 7 )
+format = 1
+tile_data = PoolIntArray( 65787, 3, 0, 65799, 0, 0, 65823, 2, 0, 65831, 2, 0, 65839, 2, 0, 65847, 2, 0, 65864, 1, 0, 65872, 1, 0, 65880, 1, 0, 65901, 5, 0, 65902, 5, 0, 65903, 5, 0, 65904, 5, 0, 65905, 5, 0, 65906, 5, 0, 65907, 5, 0, 65908, 5, 0, 65909, 5, 0, 65910, 5, 0, 65911, 5, 0, 65912, 5, 0, 65913, 5, 0, 65914, 5, 0, 65915, 5, 0, 65916, 5, 0, 65917, 5, 0, 65918, 5, 0, 65919, 5, 0, 65920, 5, 0, 65921, 5, 0, 65922, 5, 0, 65923, 5, 0, 65924, 5, 0, 65925, 5, 0, 65926, 5, 0, 65927, 5, 0, 65928, 5, 0, 65929, 5, 0, 1310975, 6, 0, 1310984, 6, 0, 1310993, 6, 0, 1311002, 6, 0, 1311011, 6, 0, 1311020, 6, 0, 1311029, 6, 0, 1311038, 6, 0, 1311047, 6, 0, 1376597, 4, 0, 1376606, 5, 0, 1573231, 5, 0, 1573240, 5, 0, 1573249, 4, 0, 1835228, 4, 0, 1835237, 4, 0, 1835263, 4, 0, 1835272, 4, 0, 1835281, 4, 0, 1835290, 4, 0, 1835299, 4, 0, 1835308, 4, 0, 1835317, 4, 0, 1835326, 5, 0, 1835335, 5, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( -67, 314 )
+script_file = "res://interface/dialogue/player_script1.json"
+
+[node name="enemy" parent="." instance=ExtResource( 3 )]
+position = Vector2( 726, -106 )
+scale = Vector2( 0.3, 0.3 )
+
+[node name="enemy3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1636, 432 )
+scale = Vector2( 0.23, 0.23 )
+
+[node name="enemy2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 585, 413 )
+scale = Vector2( 0.3, 0.3 )
+
+[node name="enemy4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2022, 117 )
+scale = Vector2( 0.3, 0.3 )
+
+[node name="Wong" parent="." instance=ExtResource( 4 )]
+position = Vector2( 244, 438 )
+
+[node name="Orlo" parent="." instance=ExtResource( 5 )]
+position = Vector2( -338, 153 )
+
+[node name="point_body" parent="." instance=ExtResource( 8 )]
+position = Vector2( -62, 265 )
+scale = Vector2( 0.5, 0.5 )
