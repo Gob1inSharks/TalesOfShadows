@@ -19,4 +19,5 @@ Team Members
   Roxane Vossoughi
   
 Check out my process portfolio
+and notes
 UwU have a good day 
