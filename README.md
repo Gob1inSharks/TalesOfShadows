@@ -9,7 +9,6 @@ Follow the story of 7-11 to
   Learn about the world
   Free innocent peasants from opression
   
-Currently in development
 Team Members
   Angie Che (Art design),
   Colin Tabot (Sound effects),
